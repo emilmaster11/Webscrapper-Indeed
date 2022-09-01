@@ -30,7 +30,7 @@ def get_url(position, location):
     return url
 
 
-###Duplicates löschen### letzte Funktion
+
 def scrapping(url):
 
  driver = webdriver.Chrome(executable_path=r'PATH TO CHROMERDRIVER.EXE')
